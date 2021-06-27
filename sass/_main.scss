@@ -1,7 +1,14 @@
 .wrapper {
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .content__box {
+        width: 50%;
+        height: 50%;
+        text-align: center;
+        border-radius: 10px;
         background-color: red;
         h1 {
             font-size: 30px;

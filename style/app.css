@@ -89,9 +89,22 @@ h6 {
 .wrapper {
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .wrapper .content__box {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  border-radius: 10px;
   background-color: red;
 }
 
