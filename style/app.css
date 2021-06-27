@@ -94,3 +94,19 @@ h6 {
 .wrapper .content__box {
   background-color: red;
 }
+
+.wrapper .content__box h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.wrapper .content__box p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: blue;
+  text-shadow: #e0dddd 0.5px 0.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  text-decoration: underline;
+}
